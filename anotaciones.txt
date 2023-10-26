@@ -1,0 +1,4 @@
+anotaciones y git ignore
+git status
+otra vez
+excelente
