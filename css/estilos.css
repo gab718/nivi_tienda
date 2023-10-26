@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "nova";
+    src: url(../fonts/NovaSlim-Regular.ttf);
+}
+.nav {
+    background: rgb(255, 143, 163);
+    padding: 2rem;
+    font-family: "nova";
+}
+img {
+    border-radius: 10px;
+}
+.menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.menu-item0 {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+input {
+    background-color: rgb(255, 204, 213);
+    border-radius: 15px;
+    outline: none;
+    padding: 0 15px;
+    border:2px solid rgb(255, 143, 163);
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(255, 143, 163), inset 0 0 10px rgb(255, 143, 163);
+    color: rgb(255, 143, 163)
+}
+input::placeholder {
+    color: blue
+}
+.container {
+    background-color: rgb(255, 204, 213);
+    height: 100vh;
+    width: 100%;
+    padding: 50px;
+    }
+.nav3 {
+    background: rgb(255, 143, 163);
+    padding: 2rem;
+    font-family: "nova";
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: blue;
+}
+.menu-item7 {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
+
+
