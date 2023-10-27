@@ -49,16 +49,24 @@ input::placeholder {
 .container {
     background-color: rgb(255, 204, 213);
     height: 100vh;
-    width: 100%;
     padding: 50px;
     display: grid;
-    grid-template-areas: ;
+    grid-template-areas: 
+    "banner" "banner" "none" "none" "none"
+    "banner" "banner" "slide" "slide" "slide"
+    "banner" "banner" "slide" "slide" "slide"
+    "banner" "banner" "slide" "slide" "slide"
+    "banner" "banner" "none" "none" "none"
+    ;
+    grid-template-columns: 1fr,1fr,1fr,1fr,1fr;
+    grid-template-rows: 1fr,1fr,1fr,1fr,1fr;
+    gap: 20px;
     }
-.card {
-    background-image: url(../img/mujer.jpg);
-    }
-.col-md-8 {
-
+.banner {
+    background: url(../img/mujer.jpg);
+}
+.slide {
+    background-image: url(../img/mujeres.jpeg);
 }
 .nav3 {
     background: rgb(255, 143, 163);
