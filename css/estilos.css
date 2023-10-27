@@ -18,12 +18,10 @@ img {
 .menu {
     list-style-type: none;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
-
 .menu-item0 {
     list-style-type: none;
     display: flex;
@@ -53,7 +51,15 @@ input::placeholder {
     height: 100vh;
     width: 100%;
     padding: 50px;
+    display: grid;
+    grid-template-areas: ;
     }
+.card {
+    background-image: url(../img/mujer.jpg);
+    }
+.col-md-8 {
+
+}
 .nav3 {
     background: rgb(255, 143, 163);
     padding: 2rem;
