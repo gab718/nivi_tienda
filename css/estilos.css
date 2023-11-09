@@ -21,14 +21,21 @@ img {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    background-color: rgb(255, 204, 213);
+    border-radius: 2px;
+}
+.link {
+    text-decoration: none;
 }
 .menu-item0 {
     list-style-type: none;
+    text-decoration: none;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: baseline;
+    
 }
 
 input {
@@ -51,22 +58,15 @@ input::placeholder {
     height: 100vh;
     padding: 50px;
     display: grid;
-    grid-template-areas: 
-    "banner" "banner" "none" "none" "none"
-    "banner" "banner" "slide" "slide" "slide"
-    "banner" "banner" "slide" "slide" "slide"
-    "banner" "banner" "slide" "slide" "slide"
-    "banner" "banner" "none" "none" "none"
-    ;
-    grid-template-columns: 1fr,1fr,1fr,1fr,1fr;
-    grid-template-rows: 1fr,1fr,1fr,1fr,1fr;
-    gap: 20px;
+    grid-template-columns: 50% 50%;
     }
 .banner {
-    background: url(../img/mujer.jpg);
+    align-items: center;
+
 }
-.slide {
-    background-image: url(../img/mujeres.jpeg);
+.caro {
+    background-color: blue;
+    align-items: center;
 }
 .nav3 {
     background: rgb(255, 143, 163);
@@ -85,7 +85,35 @@ input::placeholder {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
+.headmuj {
+    background-color: rgb(255, 204, 213);
+    font-family: "nova";
+    list-style-type: none;
+    text-decoration: none;
+    align-items: baseline;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: blue
+}
+.mainmuj {
+    background-color: rgb(255, 204, 213);
+    height: 100vh;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.fotmuj {
+    background: rgb(255, 143, 163);
+    padding: 2rem;
+    font-family: "nova";
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: blue;
+}
 
 
 
